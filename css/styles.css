@@ -5,5 +5,67 @@
 }
 .container{
     display: flex;
+}
+a[href="#"]{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.three{
+    flex-direction: column;
+    
+}
+.two{
+    justify-content: space-between;
+}
+h2{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    width: 350px;
+}
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #3882F6;
+}
+.one{
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#one{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 500px;
+    align-items: center;
+}
+.one, .two{
+    width: 1000px;
+    display: flex;
+    border: 1px solid white;
+}
+.two > div > img{
+    width: 450px;
+    height: 250px;
+    
 
 }
