@@ -12,7 +12,12 @@
     align-items: center;
     flex: 1;
 }
-
+#two{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+}
 .container{
     display: flex;
 }
