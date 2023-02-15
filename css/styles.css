@@ -15,8 +15,9 @@
 #two{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 400px;
     align-items: center;
+    
 }
 .container{
     display: flex;
@@ -46,7 +47,43 @@
     flex-direction: column;
     
 }
-
+.four{
+    justify-content: space-evenly;
+    width: 900px;
+    
+}
+.four > div{
+    display: flex;
+    flex-direction: column;
+} 
+.rounded-edges{
+    border: 1px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.description{
+    text-align:center;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.four > div > p{
+    display: block;
+    width: 150px;
+    height: 150px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+#rndm-info{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 20px 0px;
+}
 h2{
     font-size: 48px;
     font-weight:bolder;
@@ -58,6 +95,7 @@ p{
     font-size: 18px;
     color: #E5E7EB;
     width: 500px;
+    overflow-wrap: break-word;
     
 }
 
