@@ -26,6 +26,19 @@
     height: 400px;
     background-color: #E5E7EB;
 }
+#four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+footer{
+    height: 100px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding-top: 30px;
+}
 .quote{
     font-weight: lighter;
     font-style: italic;
@@ -105,6 +118,29 @@
     color: #1F2937;
     margin: 20px 0px;
 }
+#four > *{
+    background-color: #3882F6;
+    height: 200px; 
+    
+    padding: 70px 60px;
+    
+
+}
+#four > #text{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#four > #button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#button > button{
+    border: 1px solid white;
+    font-weight: bold;
+    width: 200px;
+    height: 30px
+    
+}
 h2{
     font-size: 48px;
     font-weight:bolder;
@@ -121,7 +157,7 @@ p{
 }
 
 button{
-    width: 100px;
+    width: 200px;
     height: 30px;
     border-radius: 7px;
     background-color: #3882F6;
