@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#one{
+.one{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -12,13 +12,13 @@
     align-items: center;
     flex: 1;
 }
-#two{
+.two{
     display: flex;
     flex-direction: column;
     height: 400px;
     align-items: center;
 }
-#three{
+.three{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,7 +26,7 @@
     height: 400px;
     background-color: #E5E7EB;
 }
-#four{
+.four{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ footer{
     display: flex;
 }
 
-.one{
+.first{
     
     justify-content: space-between;
     align-items: center;
@@ -62,30 +62,31 @@ footer{
     
 }
 
-.two{
+.second{
     justify-content: space-between;
     padding: 10px;
 }
 
-.one, .two{
+.first, .second{
     width: 1000px;
     display: flex;
     
 }
 
-.three{
+.third{
     flex-direction: column;
     
 }
-.four{
+.fourth{
     justify-content: space-evenly;
     width: 900px;
+    gap:50px
     
 }
-.five{
+.fifth{
     flex-direction: column;
 }
-.four > div{
+.fourth > div{
     display: flex;
     flex-direction: column;
 } 
@@ -103,7 +104,7 @@ footer{
     height: 150px;
     border: 1px solid black;
 }
-.four > div > p{
+.fourth > div > p{
     display: block;
     width: 150px;
     height: 150px;
@@ -112,13 +113,13 @@ footer{
     margin-top: 10px;
 }
 
-#rndm-info{
+.rndm-info{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     margin: 20px 0px;
 }
-#four > *{
+.four > *{
     background-color: #3882F6;
     height: 200px; 
     
@@ -126,15 +127,15 @@ footer{
     
 
 }
-#four > #text{
+.four > #text{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-#four > #button{
+.four > #button{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-#button > button{
+.button > button{
     border: 1px solid white;
     font-weight: bold;
     width: 200px;
@@ -175,13 +176,13 @@ a[href="#"]{
     padding: 10px;
 }
 
-.one > img{
+.first > img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 
-.two > img{
+.second > img{
     width: 450px;
     height: 250px;
     
