@@ -127,11 +127,11 @@ footer{
     
 
 }
-.four > #text{
+.four > .text{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-.four > #button{
+.four > .button{
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
