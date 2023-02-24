@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 .one{
     display: flex;
     flex-direction: column;
@@ -31,6 +34,7 @@
     justify-content: center;
     align-items: center;
     height: 400px;
+    justify-self: flex-end;
 }
 footer{
     height: 100px;
@@ -48,6 +52,7 @@ footer{
 }
 .owner{
     text-align: end;
+    font-weight: bold;
 }
 .container{
     display: flex;
@@ -64,7 +69,7 @@ footer{
 
 .second{
     justify-content: space-between;
-    padding: 10px;
+    margin: 15px;
 }
 
 .first, .second{
@@ -75,6 +80,7 @@ footer{
 
 .third{
     flex-direction: column;
+    gap: 10px;
     
 }
 .fourth{
