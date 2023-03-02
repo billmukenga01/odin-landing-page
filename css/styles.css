@@ -27,6 +27,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 400px;
+    gap: 10px;
     background-color: #E5E7EB;
 }
 .four{
@@ -49,6 +50,7 @@ footer{
     font-size: 36px;
     color: #1F2937;
     width: 700px;
+    
 }
 .owner{
     text-align: end;
